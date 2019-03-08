@@ -6,8 +6,9 @@
  * and open the template in the editor.
  */
 namespace YangXiaoHui\Plugin;
-use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
+use Composer\Package\PackageInterface;
+use Composer\Repository\InstalledRepositoryInterface;
 /**
  * Description of CreatePorject
  *
@@ -16,6 +17,16 @@ use Composer\Installer\LibraryInstaller;
 class ProjectInstall extends LibraryInstaller
 {
 
+    public function install(InstalledRepositoryInterface $repo, PackageInterface $package)
+    {
+        parent::install($repo, $package);
+    }
+
+    public function update(InstalledRepositoryInterface $repo, PackageInterface $initial, PackageInterface $target)
+    {
+        parent::update($repo, $initial, $target);
+
+    }
     /**
      * {@inheritDoc}
      */
