@@ -1,0 +1,20 @@
+{
+    "name": "yang-xiao-hui/install",
+    "description": "is composer install plugin",
+    "type": "composer-plugin",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "composer-plugin-api": "1.1.0",
+        "composer/composer":"1.8.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "YangXiaoHui\\Plugin\\":"/src"
+        }
+    },
+    "extra":{
+        "class": "YangXiaoHui\\Plugin\\Install",
+        "include-path":"tests"
+    }
+}
