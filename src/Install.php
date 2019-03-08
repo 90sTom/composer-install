@@ -10,6 +10,8 @@ namespace YangXiaoHui\Plugin;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
+use YangXiaoHui\Plugin\ProjectInstall;
+
 /**
  * Description of ProjectInstall
  *
