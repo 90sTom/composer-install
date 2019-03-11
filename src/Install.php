@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace YangXiaoHui\Plugin;
+namespace YangXiaoHui\Composer;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;

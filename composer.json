@@ -14,7 +14,7 @@
         }
     },
     "extra":{
-        "class": "YangXiaoHui\\Plugin\\Install",
+        "class": "YangXiaoHui\\Composer\\Install",
         "include-path":"tests"
     }
 }
